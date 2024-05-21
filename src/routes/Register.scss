@@ -1,0 +1,39 @@
+input {
+    background-color: rgb(170, 168, 168);
+    margin-top: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 600px;
+
+}
+
+input::placeholder {
+    color: white
+}
+
+.checkbox-container {
+    display: flex;
+    background-color: rgb(170, 168, 168);
+    margin-top: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 600px;
+}
+
+#form-register-button {
+    width: 600px;
+}
+
+@media screen and (max-width: 600px) {
+    input {
+        width: 200px;
+    }
+
+    #form-register-button {
+        width: 200px;
+    }
+
+    .checkbox-container {
+        width: 200px;
+    }
+}

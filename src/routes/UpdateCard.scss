@@ -1,0 +1,30 @@
+.divForm {
+    height: 800px;
+}
+
+input {
+    background-color: rgb(170, 168, 168);
+    margin-top: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 600px;
+
+}
+
+input::placeholder {
+    color: white
+}
+
+#form-update-button {
+    width: 600px;
+}
+
+@media screen and (max-width: 600px) {
+    input {
+        width: 200px;
+    }
+
+    #form-update-button {
+        width: 200px;
+    }
+}
